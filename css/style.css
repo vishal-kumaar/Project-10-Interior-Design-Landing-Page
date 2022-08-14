@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url("../Photos/retro-living-room-interior-design_53876-145503.webp") no-repeat center/cover;
+}
+
+
+/* --------Navbar Section-------- */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 40px 0px 40px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffffff;
+    width: 3em;
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+.list-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 43em;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.list-item {
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 12em;
+}
+
+.phone-icon {
+    width: 27px;
+}
+
+.phone-no {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+
+/* -----------Hero Section----------- */
+
+.hero {
+    margin: 60px 70px 0px 70px;
+}
+
+.hero1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.heading {
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+.card1 {
+    background-color: rgb(174 193 208 / 30%);
+    height: fit-content;
+    padding: 20px;
+    position: relative;
+}
+
+.card1::before {
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+    bottom: -60px;
+    right: 64px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
+
+.card1::after {
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+    bottom: -60px;
+    right: 70px;
+    width: 1px;
+    height: 60px;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+.puzzle-image {
+    width: 70px;
+}
+
+.hero2 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 180px;
+}
+
+.btn {
+    height: fit-content;
+    padding: 12px 35px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    outline: none;
+    border-radius: 30px;
+}
+
+.card2 {
+    background-color: rgb(174 193 208 / 30%);
+    height: fit-content;
+    padding: 20px;
+    position: relative;
+}
+
+.card2::before {
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 54px;
+    right: -64px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
+
+.card2::after {
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 60px;
+    right: -60px;
+    width: 60px;
+    height: 1px;
+}
+
+.bulb-image {
+    width: 70px;
+}
