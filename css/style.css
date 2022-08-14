@@ -6,8 +6,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body {
-    background: url("../Photos/retro-living-room-interior-design_53876-145503.webp") no-repeat center/cover;
+body::before {
+    content: "";
+    background: url(../Photos/retro-living-room-interior-design_53876-145503.webp) no-repeat center/cover;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
 
 
