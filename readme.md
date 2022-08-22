@@ -14,7 +14,7 @@ This assignment is written in **HTML5 and CSS3** which is given in **"JavaScript
 
 <br>
 
-![Screenshot](./screenshot/1.png "Template Screenshot")
+![Screenshot](./asset/screenshot.png "Template Screenshot")
 
 
 ## 📌 What I Learn
