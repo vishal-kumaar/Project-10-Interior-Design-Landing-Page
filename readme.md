@@ -1,4 +1,4 @@
-## 🔗Project 10 Link
+## 🔗Project Link
 https://html5-css3-project-10.netlify.app/
 
 # ✨ Project 10 : Interior Design Landing Page ✨
